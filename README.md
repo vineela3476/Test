@@ -6,7 +6,9 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 >**Encapsulation:** Wrapping data and methods into a single unit (class) and restricting direct access to some components.
 
-``` csharp
+
+```csharp
+
 using System;
 internal class Student{
       
@@ -114,10 +116,10 @@ internal class LoadChild : LoadParent
    static void Main()
    {
       LoadChild c = new LoadChild();
-      c.Test();   	//Executes parent class Test method
-      c.Test(10);    	//Executes child class Test method
-      c.Show();       	//Executes parent class Show method
-      c.Display();   	//Executes parent class Display method 
+      c.Test();   	
+      c.Test(10);    	
+      c.Show();       	
+      c.Display();   
       Console.ReadLine();
    }
 }
