@@ -1,4 +1,4 @@
-#OOPS
+# OOPS
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects." Objects are instances of classes that encapsulate data (attributes) and behavior (methods) into a single entity. OOP makes it easier to design and structure complex systems by representing them as a collection of interacting objects.
 
@@ -6,7 +6,7 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 
 >**Encapsulation:** Wrapping data and methods into a single unit (class) and restricting direct access to some components.
 
-```
+```csharp
 using System;
 internal class Student{
      
@@ -22,7 +22,7 @@ internal class Student{
 
 >**Abstraction:** Hiding implementation details from the user and exposing only the essential features.
 
-```
+```csharp
 using System;
 
 public abstract class School{
@@ -43,7 +43,7 @@ public class Student:School{
 
 >**Inheritance:** Allowing a new class to acquire the properties and methods of an existing class.
 
-```
+```csharp
 using System;
 
 internal class Class1
@@ -88,7 +88,7 @@ internal class Class2 : Class1
 ```
 
 >**Polymorphism:** Allowing objects to be treated as instances of their parent class, enabling one interface to be used for different data types.
-```
+```csharp
 internal class LoadParent
 {
    public void Test()
@@ -114,10 +114,10 @@ internal class LoadChild : LoadParent
    static void Main()
    {
       LoadChild c = new LoadChild();
-      c.Test();   	//Executes parent class Test method
-      c.Test(10);    	//Executes child class Test method
-      c.Show();       	//Executes parent class Show method
-      c.Display();   	//Executes parent class Display method 
+      c.Test();   	
+      c.Test(10);    	
+      c.Show();       	
+      c.Display();   
       Console.ReadLine();
    }
 }
