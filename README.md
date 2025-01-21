@@ -1,8 +1,8 @@
-#OOPS
+# OOPS
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects." Objects are instances of classes that encapsulate data (attributes) and behavior (methods) into a single entity. OOP makes it easier to design and structure complex systems by representing them as a collection of interacting objects.
 
-#Key Principles of OOP
+## Key Principles of OOP
 
 >**Encapsulation:** Wrapping data and methods into a single unit (class) and restricting direct access to some components.
 
