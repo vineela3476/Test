@@ -22,7 +22,7 @@ internal class Student{
 
 >**Abstraction:** Hiding implementation details from the user and exposing only the essential features.
 
-```
+```csharp
 using System;
 
 public abstract class School{
@@ -43,7 +43,7 @@ public class Student:School{
 
 >**Inheritance:** Allowing a new class to acquire the properties and methods of an existing class.
 
-```
+```csharp
 using System;
 
 internal class Class1
@@ -88,7 +88,7 @@ internal class Class2 : Class1
 ```
 
 >**Polymorphism:** Allowing objects to be treated as instances of their parent class, enabling one interface to be used for different data types.
-```
+```csharp
 internal class LoadParent
 {
    public void Test()
